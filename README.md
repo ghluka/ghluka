@@ -4,11 +4,11 @@
 
 <div id="header" align="center">
   <h1>Welcome to my profile! <img src="./assets/wave.gif" height=30></h1>
-  <img src="https://komarev.com/ghpvc/?username=lukam-oss">
+  <img src="https://komarev.com/ghpvc/?username=ghluka">
     
-[![Followers](https://img.shields.io/github/followers/lukam-oss)](https://github.com/lukam-oss?tab=followers)
-[![Stars](https://img.shields.io/github/stars/lukam-oss?affiliations=OWNER%2CCOLLABORATOR)](https://github.com/lukam-oss?tab=repositories)
-[![Website](https://img.shields.io/website?down_message=Offline&up_message=Online&url=https%3A%2F%2Flukam-oss.github.io%2F)](https://lukam-oss.github.io/)
+[![Followers](https://img.shields.io/github/followers/ghluka)](https://github.com/ghluka?tab=followers)
+[![Stars](https://img.shields.io/github/stars/ghluka?affiliations=OWNER%2CCOLLABORATOR)](https://github.com/ghluka?tab=repositories)
+[![Website](https://img.shields.io/website?down_message=Offline&up_message=Online&url=https%3A%2F%2Fghluka.github.io%2F)](https://ghluka.github.io/)
 </div>
 
 ## 👋 Introduction
@@ -17,7 +17,7 @@ My name is Luka, I am a 16 year old highschool student in Canada.
 
 ### 🕸️ Website
 
-I have a GitHub.io website, you can visit it by [clicking here](https://lukam-oss.github.io)!
+I have a GitHub.io website, you can visit it by [clicking here](https://ghluka.github.io)!
 
 ## 🔨 Skills
 
@@ -35,7 +35,7 @@ I have a GitHub.io website, you can visit it by [clicking here](https://lukam-os
 
 ## 🐍 Contributions
 <picture>
-<source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/lukam-oss/lukam-oss/output/github-contribution-grid-snake-dark.svg" />
-<source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/lukam-oss/lukam-oss/output/github-contribution-grid-snake.svg" />
-<img alt="github-snake" src="https://raw.githubusercontent.com/lukam-oss/lukam-oss/output/github-contribution-grid-snake.svg" />
+<source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ghluka/ghluka/output/github-contribution-grid-snake-dark.svg" />
+<source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ghluka/ghluka/output/github-contribution-grid-snake.svg" />
+<img alt="github-snake" src="https://raw.githubusercontent.com/ghluka/ghluka/output/github-contribution-grid-snake.svg" />
 </picture>
