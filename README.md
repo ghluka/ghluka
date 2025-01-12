@@ -13,7 +13,7 @@
 
 ## 👋 Introduction
 
-My name is Luka, I am a 16 year old highschool student in Canada. 
+My name is Luka, I am a 17-year-old high school student in Canada. 
 
 ### 🕸️ Website
 
