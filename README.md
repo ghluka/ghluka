@@ -8,7 +8,7 @@
     
 [![Followers](https://img.shields.io/github/followers/ghluka)](https://github.com/ghluka?tab=followers)
 [![Stars](https://img.shields.io/github/stars/ghluka?affiliations=OWNER%2CCOLLABORATOR)](https://github.com/ghluka?tab=repositories)
-[![Website](https://img.shields.io/website?down_message=Offline&up_message=Online&url=https%3A%2F%2Fghluka.github.io%2F)](https://ghluka.github.io/)
+[![Website](https://img.shields.io/website?down_message=Offline&up_message=Online&url=https%3A%2F%2Fluka.onl%2F)](https://luka.onl/)
 </div>
 
 ## 👋 Introduction
@@ -17,7 +17,7 @@ My name is Luka, I am a 17-year-old high school student in Canada.
 
 ### 🕸️ Website
 
-I have a GitHub.io website, you can visit it by [clicking here](https://ghluka.github.io)!
+I have a GitHub.io website, you can visit it by [clicking here](https://luka.onl/)!
 
 ## 🔨 Skills
 
