@@ -13,28 +13,28 @@
 
 ## 👋 Introduction
 
-My name is Luka, I am a 17-year-old high school student in Canada. 
+My name is Luka, I am a 17-year-old university student in Canada. 
 
 ### 🕸️ Website
 
-I have a GitHub.io website, you can visit it by [clicking here](https://luka.onl/)!
+I have a personal website, you can visit it by going to [luka.onl](https://luka.onl/).
 
 ## 🔨 Skills
 
 ### 📜 Languages
 ![C#](https://img.shields.io/badge/C%23-6E4DDD?logo=csharp&logoColor=white&style=for-the-badge)
-![LUA](https://img.shields.io/badge/LUA-2C2D72?logo=lua&logoColor=white&style=for-the-badge)
+![LUAU](https://img.shields.io/badge/LUAU-00A2FF?logo=luau&logoColor=white&style=for-the-badge)
 ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white&style=for-the-badge)
 ![Java](https://img.shields.io/badge/Java-E76F01?logo=openjdk&logoColor=white&style=for-the-badge)
 ![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?logo=kotlin&logoColor=white&style=for-the-badge)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black&style=for-the-badge)
+![LUA](https://img.shields.io/badge/LUA-2C2D72?logo=lua&logoColor=white&style=for-the-badge)
 
 ### ⚙️ Other Skills
 ![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
 ![Selenium](https://img.shields.io/badge/Selenium-43B02A?style=for-the-badge&logo=selenium&logoColor=white)
 ![DotNET](https://img.shields.io/badge/DotNET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
 ![Pages](https://img.shields.io/badge/Pages-222222?style=for-the-badge&logo=github&logoColor=white)
-![Gradle](https://img.shields.io/badge/Gradle-02303A?style=for-the-badge&logo=gradle&logoColor=white)
 
 ## 🐍 Contributions
 <picture>
