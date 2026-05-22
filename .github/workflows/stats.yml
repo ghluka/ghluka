@@ -34,12 +34,7 @@ jobs:
       run: |
         ./zig-out/bin/github-stats \
           --overview-output-file dist/overview.svg \
-          --languages-output-file dist/languages.svg \
-          --exclude-repos "$EXCLUDE_REPOS" \
-          --exclude-langs "$EXCLUDE_LANGS" \
-          --exclude-private \
-          --silent \
-          --max-retries 5
+          --languages-output-file dist/languages.svg
       env:
         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
         EXCLUDE_REPOS: ${{ secrets.EXCLUDE_REPOS }}
