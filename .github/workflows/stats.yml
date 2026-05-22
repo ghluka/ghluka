@@ -32,10 +32,10 @@ jobs:
 
     - name: generate images
       run: |
-        ./zig-out/bin/github-stats \
-          --overview-output-file dist/overview.svg \
-          --languages-output-file dist/languages.svg
+        ./zig-out/bin/github-stats
       env:
+        OVERVIEW_OUTPUT_FILE: dist/overview.svg
+        LANGUAGES_OUTPUT_FILE: dist/languages.svg
         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
         EXCLUDE_REPOS: ${{ secrets.EXCLUDE_REPOS }}
         EXCLUDE_LANGS: ${{ secrets.EXCLUDE_LANGS }}
