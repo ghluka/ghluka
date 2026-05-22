@@ -1,0 +1,53 @@
+name: Generate Stats Images
+
+on:
+  schedule:
+    - cron: "5 0 * * *"
+
+  workflow_dispatch:
+
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+defaults:
+  run:
+    shell: bash -euxo pipefail {0}
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v6
+
+    - uses: mlugg/setup-zig@d1434d08867e3ee9daa34448df10607b98908d29  # v2 tag
+      with:
+        version: 0.16.0
+
+    - name: Build
+      run: zig build
+
+    - name: Generate images
+      run: |
+        mkdir -p dist
+        ./zig-out/bin/github-stats
+      env:
+        ACCESS_TOKEN: ${{ secrets.TOKEN }}
+        EXCLUDE_REPOS: ${{ secrets.EXCLUDE_REPOS }}
+        EXCLUDE_LANGS: ${{ secrets.EXCLUDE_LANGS }}
+        EXCLUDE_PRIVATE: "false"
+        SILENT: "true"
+        OUTPUT_DIR: dist
+        MAX_RETRIES: 5
+
+    - name: Deploy to stats branch
+      uses: crazy-max/ghaction-github-pages@v5
+      with:
+        target_branch: stats
+        build_dir: dist
+        keep_history: false
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
