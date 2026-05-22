@@ -1,4 +1,4 @@
-name: Generate Stats Images
+name: generate stats images
 
 on:
   schedule:
@@ -27,27 +27,33 @@ jobs:
       with:
         version: 0.16.0
 
-    - name: Build
+    - name: build
       run: zig build
 
-    - name: Generate images
+    - name: generate images
       run: |
-        mkdir -p dist
-        ./zig-out/bin/github-stats
+        ./zig-out/bin/github-stats \
+          --overview-output-file dist/overview.svg \
+          --languages-output-file dist/languages.svg \
+          --exclude-repos "$EXCLUDE_REPOS" \
+          --exclude-langs "$EXCLUDE_LANGS" \
+          --exclude-private \
+          --silent \
+          --max-retries 5
       env:
-        ACCESS_TOKEN: ${{ secrets.TOKEN }}
+        ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
         EXCLUDE_REPOS: ${{ secrets.EXCLUDE_REPOS }}
         EXCLUDE_LANGS: ${{ secrets.EXCLUDE_LANGS }}
         EXCLUDE_PRIVATE: "false"
         SILENT: "true"
-        OUTPUT_DIR: dist
+        # TODO: Remove this when they get their API working again
+        # https://github.com/orgs/community/discussions/192970
         MAX_RETRIES: 5
 
-    - name: Deploy to stats branch
+    - name: deploy to stats branch
       uses: crazy-max/ghaction-github-pages@v5
       with:
         target_branch: stats
         build_dir: dist
-        keep_history: false
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
