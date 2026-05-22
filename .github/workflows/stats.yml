@@ -36,7 +36,7 @@ jobs:
       env:
         OVERVIEW_OUTPUT_FILE: dist/overview.svg
         LANGUAGES_OUTPUT_FILE: dist/languages.svg
-        ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+        ACCESS_TOKEN: ${{ secrets.TOKEN }}
         EXCLUDE_REPOS: ${{ secrets.EXCLUDE_REPOS }}
         EXCLUDE_LANGS: ${{ secrets.EXCLUDE_LANGS }}
         EXCLUDE_PRIVATE: "false"
