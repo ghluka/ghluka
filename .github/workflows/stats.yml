@@ -38,7 +38,7 @@ jobs:
         LANGUAGES_OUTPUT_FILE: dist/languages.svg
         ACCESS_TOKEN: ${{ secrets.TOKEN }}
         EXCLUDE_REPOS: ${{ secrets.EXCLUDE_REPOS }}
-        EXCLUDE_LANGS: ${{ secrets.EXCLUDE_LANGS }}
+        EXCLUDE_LANGS: "CSS,TeX,PHP,HTML,Makefile,Shell,Batchfile"
         EXCLUDE_PRIVATE: "false"
         SILENT: "true"
         # TODO: Remove this when they get their API working again

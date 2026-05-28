@@ -269,9 +269,7 @@ pub fn main(init: std.process.Init) !void {
     defer aggregate_stats.languages.deinit(allocator);
     defer aggregate_stats.language_colors.deinit(allocator);
     for (stats.repositories) |repository| {
-        if (glob.matchAny(exclude_repos orelse &.{}, repository.name) or
-            (args.exclude_private and repository.private))
-        {
+        if (args.exclude_private and repository.private) {
             continue;
         }
         aggregate_stats.stars += repository.stars;
@@ -279,6 +277,9 @@ pub fn main(init: std.process.Init) !void {
         aggregate_stats.lines_changed += repository.lines_changed;
         aggregate_stats.views += repository.views;
         aggregate_stats.repos += 1;
+        if (glob.matchAny(exclude_repos orelse &.{}, repository.name)) {
+            continue;
+        }
         if (repository.languages) |langs| for (langs) |language| {
             if (glob.matchAny(exclude_langs orelse &.{}, language.name)) {
                 continue;
