@@ -25,26 +25,29 @@ I have a personal website, you can visit it by going to [luka.onl](https://luka.
 
 ## Skills
 
-### Languages I actively use in my projects
+### Languages
 ![Go](https://img.shields.io/badge/Go-00ADD8?logo=go&logoColor=white&style=for-the-badge)
-![C#](https://img.shields.io/badge/C%23-178600?logo=csharp&logoColor=white&style=for-the-badge)
-![LUAU](https://img.shields.io/badge/LUAU-00A2FF?logo=luau&logoColor=white&style=for-the-badge)
 ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white&style=for-the-badge)
-![Java](https://img.shields.io/badge/Java-E76F01?logo=openjdk&logoColor=white&style=for-the-badge)
 ![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?logo=kotlin&logoColor=white&style=for-the-badge)
+![Java](https://img.shields.io/badge/Java-E76F01?logo=openjdk&logoColor=white&style=for-the-badge)
+![Luau](https://img.shields.io/badge/Luau-00A2FF?logo=luau&logoColor=white&style=for-the-badge)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black&style=for-the-badge)
-![LUA](https://img.shields.io/badge/LUA-2C2D72?logo=lua&logoColor=white&style=for-the-badge)
+![C#](https://img.shields.io/badge/C%23-178600?logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTYgMjg4Ij48cGF0aCBmaWxsPSIjZmZmIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0yNTUuNTY5LDg0LjQ1MkMyNTUuNTY3LDc5LjYyMiwyNTQuNTM0LDc1LjM1NCwyNTIuNDQ1LDcxLjY5MUMyNTAuMzkzLDY4LjA4OSwyNDcuMzIsNjUuMDcsMjQzLjE5OCw2Mi42ODNDMjA5LjE3Myw0My4wNjQsMTc1LjExNSwyMy41MDUsMTQxLjEwMSwzLjg2NkMxMzEuOTMxLC0xLjQyOCwxMjMuMDQsLTEuMjM1LDExMy45MzgsNC4xMzVDMTAwLjM5NSwxMi4xMjIsMzIuNTksNTAuOTY5LDEyLjM4NSw2Mi42NzJDNC4wNjQsNjcuNDg5LDAuMDE1LDc0Ljg2MSwwLjAxMyw4NC40NDNDMCwxMjMuODk4LDAuMDEzLDE2My4zNTIsMCwyMDIuODA4QzAsMjA3LjUzMiwwLjk5MSwyMTEuNzE3LDIuOTg4LDIxNS4zMjVDNS4wNDEsMjE5LjAzNiw4LjE1NywyMjIuMTM4LDEyLjM3NCwyMjQuNTc5QzMyLjU4LDIzNi4yODIsMTAwLjM5NCwyNzUuMTI2LDExMy45MzQsMjgzLjExNUMxMjMuMDQsMjg4LjQ4OCwxMzEuOTMxLDI4OC42OCwxNDEuMTA0LDI4My4zODRDMTc1LjExOSwyNjMuNzQ0LDIwOS4xNzksMjQ0LjE4NiwyNDMuMjA5LDIyNC41NjdDMjQ3LjQyNiwyMjIuMTI3LDI1MC41NDIsMjE5LjAyMywyNTIuNTk1LDIxNS4zMTVDMjU0LjU4OSwyMTEuNzA3LDI1NS41ODIsMjA3LjUyMiwyNTUuNTgyLDIwMi43OTdDMjU1LjU4MiwyMDIuNzk3LDI1NS41ODIsMTIzLjkwOCwyNTUuNTY5LDg0LjQ1Mk0yMDEuODkyLDExNi4yOTRMMjAxLjg5MiwxMjkuNzY4TDIxNS4zNjYsMTI5Ljc2OEwyMTUuMzY2LDExNi4yOTRMMjIyLjEwMywxMTYuMjk0TDIyMi4xMDMsMTI5Ljc2OEwyMzUuNTc3LDEyOS43NjhMMjM1LjU3NywxMzYuNTA1TDIyMi4xMDMsMTM2LjUwNUwyMjIuMTAzLDE0OS45NzhMMjM1LjU3NywxNDkuOTc4TDIzNS41NzcsMTU2LjcxNUwyMjIuMTAzLDE1Ni43MTVMMjIyLjEwMywxNzAuMTg5TDIxNS4zNjYsMTcwLjE4OUwyMTUuMzY2LDE1Ni43MTVMMjAxLjg5MiwxNTYuNzE1TDIwMS44OTIsMTcwLjE4OUwxOTUuMTU1LDE3MC4xODlMMTk1LjE1NSwxNTYuNzE1TDE4MS42ODIsMTU2LjcxNUwxODEuNjgyLDE0OS45NzhMMTk1LjE1NSwxNDkuOTc4TDE5NS4xNTUsMTM2LjUwNUwxODEuNjgyLDEzNi41MDVMMTgxLjY4MiwxMjkuNzY4TDE5NS4xNTUsMTI5Ljc2OEwxOTUuMTU1LDExNi4yOTRaTTIxNS4zNjYsMTM2LjUwNUwyMDEuODkyLDEzNi41MDVMMjAxLjg5MiwxNDkuOTc4TDIxNS4zNjYsMTQ5Ljk3OFpNMTI4LjQ1Nyw0OC42MjZDMTYzLjYwMSw0OC42MjYsMTk0LjI4NCw2Ny43MTIsMjEwLjcxOSw5Ni4wODJMMTY5LjIxLDExOS42MTdDMTYxLjA2MywxMDUuODI0LDE0Ni4xMjgsOTYuNTE1LDEyOC40NTcsOTYuMzJDMTAyLjMzMSw5Ni4zMiw4MS4xNTEsMTE3LjUsODEuMTUxLDE0My42MjVDODEuMTUxLDE1Mi4xNjksODMuNDI4LDE2MC4xNzgsODcuMzksMTY3LjA5NUM5NS41NDQsMTgxLjMzLDExMC44NzMsMTkwLjkzMSwxMjguNDU3LDE5MC45MzFDMTQ2LjE1LDE5MC45MzEsMTYxLjU2NiwxODEuMjA4LDE2OS42NzgsMTY2LjgyMUwyMTAuNzY4LDE5MS4wODRDMTk0LjUxMywyMTkuMjEzLDE2NC4yNSwyMzguMjQxLDEyOC40NTcsMjM4LjYyNkM5My4yMDIsMjM4LjYyNiw2Mi40MzIsMjE5LjQyMiw0Ni4wMzgsMTkwLjkwMkMzOC4wMzUsMTc2Ljk3OSwzMy40NTYsMTYwLjgzOCwzMy40NTYsMTQzLjYyNUMzMy40NTYsOTEuMTU5LDc1Ljk4OCw0OC42MjYsMTI4LjQ1Nyw0OC42MjYiLz48L3N2Zz4K&logoColor=white&style=for-the-badge)
+![Lua](https://img.shields.io/badge/Lua-2C2D72?logo=lua&logoColor=white&style=for-the-badge)
+![Rust](https://img.shields.io/badge/Rust-B7410E?logo=rust&logoColor=white&style=for-the-badge)
+![C](https://img.shields.io/badge/C-A8B9CC?logo=c&logoColor=black&style=for-the-badge)
+![C++](https://img.shields.io/badge/C++-00599C?logo=cplusplus&logoColor=white&style=for-the-badge)
 
-### Frameworks & Libraries I have worked with
+### Frameworks & Libraries
 ![Jinja](https://img.shields.io/badge/Jinja-7E0C1B?style=for-the-badge&logo=jinja&logoColor=white)
 ![Flask](https://img.shields.io/badge/Flask-3BABC3?style=for-the-badge&logo=flask&logoColor=white)
 ![Selenium](https://img.shields.io/badge/Selenium-43B02A?style=for-the-badge&logo=selenium&logoColor=white)
 ![DotNET](https://img.shields.io/badge/DotNET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
 ![Pages](https://img.shields.io/badge/Pages-222222?style=for-the-badge&logo=github&logoColor=white)
 
-### Databases I have worked with
-![MYSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
-![SQLITE](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
+### Databases
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
 
 ## Stats
 <div align="center">
